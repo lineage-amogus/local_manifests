@@ -7,6 +7,11 @@
     <remote name="aospa-vendor"
         fetch="https://github.com/ThankYouMario/" />
 
+    <remote
+        name="personal"
+        fetch="git@github.com:lineage-amogus"
+        revision="13" />
+
     <!-- Device Trees -->
     <project path="device/motorola/common" name="android_device_motorola_common"
         remote="moto-common" revision="13" />
@@ -18,8 +23,12 @@
         remote="moto-common" revision="13" />
     <project path="device/motorola/amogus-kernel" name="android_device_motorola_amogus-kernel"
         remote="moto-common" revision="13" />
+
+    <!-- from personal remote - ssh-->
     <project path="device/motorola/amogus" name="android_device_motorola_amogus"
-        remote="moto-common" revision="13" />
+        remote="personal" revision="13" />
+    <!-- ################### -->
+
     <project path="device/motorola/amogus_doha" name="android_device_motorola_amogus_doha"
         remote="moto-common" revision="13" />
 
